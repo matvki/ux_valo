@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Righteous', cursive;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -42,6 +43,7 @@ header>nav>div:nth-child(2n){
     position:absolute;
     top : 90%;
     left : 50%;
+    scroll-behavior: smooth;
     transition: 0.5s;
 }
 header>nav>div>a>p{
