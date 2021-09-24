@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="caroussel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<header>
+    <nav class="flex">
+        <div>
+            <img src="./img/latest.png" alt="Logo Valorant">
+            <img id="imgWiki" src="./img/wiki.png" alt="Valorant Wiki">
+        </div>
+        <div class="flex">
+            <a href="#"><p>Accueil</p></a>
+            <a href="#personnages"><p>Agents</p></a>
+            <a href="#cartes"><p>Cartes</p></a>
+            <a href="#armes"><p>Armes</p></a>
+        </div>
+    </nav>
+</header>
+
+<section id="accueil">
+    <img id="imgHome" src="./img/home.png"
+         alt="Fond décran Valo"/>
+    <div class="text_home">
+        <p>
+            Rejoignez-nous agent !<br>Restez à l'affut des nouveautée.
+        </p>
+        <div id="text_play">
+            <a href=""> Rentres dans l'arène &emsp; &#187;</a>
+        </div>
+    </div>
+    <div id="button_next">
+        <a href="#personnages">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" id="fleche"
+                 class="svg-inline--fa fa-angle-down" role="img" xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 384 512">
+                <path fill="#ff4655"
+                      d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z">
+                </path>
+            </svg>
+        </a>
+    </div>
+</section>
+<section id="pres_personnages">
+    <!--    <h1>Agents</h1>-->
+    <!--    <div class="carrousel" id="personnages">-->
+    <!--        <input type="radio" name="slides" id="jett" checked>-->
+    <!--        <input type="radio" name="slides" id="raze">-->
+    <!--        <input type="radio" name="slides" id="breach">-->
+    <!--        <input type="radio" name="slides" id="omen">-->
+    <!--        <input type="radio" name="slides" id="brimstone">-->
+    <!--        <input type="radio" name="slides" id="phoenix">-->
+    <!--        <input type="radio" name="slides" id="sage">-->
+    <!--        <input type="radio" name="slides" id="sova">-->
+    <!--        <input type="radio" name="slides" id="viper">-->
+
+    <!--        <ul class="slides">-->
+    <!--            <li class="slide">-->
+
+    <!--                <img src="./img/V_AGENTS_587x900_Jett.png">-->
+    <!--                <p>-->
+    <!--                    Jett-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_ALL_Raze_2.png">-->
+    <!--                <p>-->
+    <!--                    Raze-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_Breach.png">-->
+    <!--                <p>-->
+    <!--                    Breach-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_Omen.png">-->
+    <!--                <p>-->
+    <!--                    Omen-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/Brimstone_artwork.png">-->
+    <!--                <p>-->
+    <!--                    Brimstone-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_Phx.png">-->
+    <!--                <p>-->
+    <!--                    Phoenix-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_Phx.png">-->
+    <!--                <p>-->
+    <!--                    Sage-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_Phx.png">-->
+    <!--                <p>-->
+    <!--                    Sova-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--            <li class="slide">-->
+    <!--                <img src="./img/V_AGENTS_587x900_Phx.png">-->
+    <!--                <p>-->
+    <!--                    Viper-->
+    <!--                </p>-->
+    <!--            </li>-->
+    <!--        </ul>-->
+    <!--        <div class="slidesNavigation">-->
+    <!--            <label for="jett" id="DotForJett">Jett</label>-->
+    <!--            <label for="raze" id="DotForRaze">Raze</label>-->
+    <!--            <label for="breach" id="DotForBreach">Breach</label>-->
+    <!--            <label for="omen" id="DotForOmen">Raze</label>-->
+    <!--            <label for="brimstone" id="DotForBrimstone">Brimstone</label>-->
+    <!--            <label for="phoenix" id="DotForPhoenix">Phoenix</label>-->
+    <!--            <label for="sage" id="DotForSage">Sage</label>-->
+    <!--            <label for="sova" id="DotForSova">Sova</label>-->
+    <!--            <label for="viper" id="DotForViper">Viper</label>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+<h2 id="personnages">Agents</h2>
+    <div class="slider">
+        <div class="slides">
+            <div id="slide-1">
+                <img src="./img/V_AGENTS_587x900_Jett.png">
+            </div>
+            <div id="slide-2">
+                <img src="./img/V_AGENTS_587x900_ALL_Raze_2.png">
+            </div>
+            <div id="slide-3">
+                <img src="./img/V_AGENTS_587x900_Breach.png">
+            </div>
+            <div id="slide-4">
+                <img src="./img/V_AGENTS_587x900_Omen.png">
+            </div>
+            <div id="slide-5">
+                <img src="./img/Brimstone_artwork.png">
+            </div>
+            <div id="slide-6">
+                <img src="./img/V_AGENTS_587x900_Phx.png">
+            </div>
+            <div id="slide-7">
+                <img src="./img/V_AGENTS_587x900_sage.png">
+            </div>
+            <div id="slide-8">
+                <img src="./img/V_AGENTS_587x900_ALL_Sova_2.png">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="divA" class="flex">
+        <a href="#slide-1">Jett</a>
+        <a href="#slide-2">Raze</a>
+        <a href="#slide-3">Breach</a>
+        <a href="#slide-4">Omen</a>
+        <a href="#slide-5">Brimstone</a>
+        <a href="#slide-6">Phoenix</a>
+        <a href="#slide-7">Sage</a>
+        <a href="#slide-8">Sova</a>
+    </div>
+
+
+</section>
+
+</body>
+</html>
